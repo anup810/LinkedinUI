@@ -15,6 +15,14 @@
 		4A1AF9D62C63A50C00DB26DD /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1AF9D52C63A50C00DB26DD /* PostModel.swift */; };
 		4A1AF9D82C63A51700DB26DD /* NetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1AF9D72C63A51700DB26DD /* NetworkModel.swift */; };
 		4A6FB4E32C64D9EE00551C6C /* InvitationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FB4E22C64D9EE00551C6C /* InvitationView.swift */; };
+		4A6FB4E52C64DDA200551C6C /* MyNetworkScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FB4E42C64DDA200551C6C /* MyNetworkScreen.swift */; };
+		4A6FB4E72C64E16C00551C6C /* PostCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FB4E62C64E16C00551C6C /* PostCardView.swift */; };
+		4A6FB4E92C64E43800551C6C /* SocialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FB4E82C64E43800551C6C /* SocialData.swift */; };
+		4A6FB4EB2C64E46600551C6C /* SocialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FB4EA2C64E46600551C6C /* SocialView.swift */; };
+		4A6FB4ED2C64EE1400551C6C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FB4EC2C64EE1400551C6C /* ProfileView.swift */; };
+		4A6FB4EF2C64EF2900551C6C /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FB4EE2C64EF2900551C6C /* PostView.swift */; };
+		4A6FB4F12C64F28000551C6C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FB4F02C64F28000551C6C /* HomeScreen.swift */; };
+		4A6FB4F32C64F3B500551C6C /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6FB4F22C64F3B500551C6C /* TabScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +35,14 @@
 		4A1AF9D52C63A50C00DB26DD /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		4A1AF9D72C63A51700DB26DD /* NetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkModel.swift; sourceTree = "<group>"; };
 		4A6FB4E22C64D9EE00551C6C /* InvitationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvitationView.swift; sourceTree = "<group>"; };
+		4A6FB4E42C64DDA200551C6C /* MyNetworkScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNetworkScreen.swift; sourceTree = "<group>"; };
+		4A6FB4E62C64E16C00551C6C /* PostCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardView.swift; sourceTree = "<group>"; };
+		4A6FB4E82C64E43800551C6C /* SocialData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialData.swift; sourceTree = "<group>"; };
+		4A6FB4EA2C64E46600551C6C /* SocialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialView.swift; sourceTree = "<group>"; };
+		4A6FB4EC2C64EE1400551C6C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4A6FB4EE2C64EF2900551C6C /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		4A6FB4F02C64F28000551C6C /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		4A6FB4F22C64F3B500551C6C /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				4A1AF9D42C63A4FD00DB26DD /* Model */,
-				4A1AF9D12C63A09600DB26DD /* View */,
 				4A1AF9C32C639C7000DB26DD /* LinkedinUIApp.swift */,
 				4A1AF9C52C639C7000DB26DD /* ContentView.swift */,
 				4A1AF9C72C639C7100DB26DD /* Assets.xcassets */,
@@ -81,7 +96,14 @@
 			isa = PBXGroup;
 			children = (
 				4A1AF9D22C63A0A500DB26DD /* SearchView.swift */,
+				4A6FB4E42C64DDA200551C6C /* MyNetworkScreen.swift */,
 				4A6FB4E22C64D9EE00551C6C /* InvitationView.swift */,
+				4A6FB4E62C64E16C00551C6C /* PostCardView.swift */,
+				4A6FB4EA2C64E46600551C6C /* SocialView.swift */,
+				4A6FB4EC2C64EE1400551C6C /* ProfileView.swift */,
+				4A6FB4EE2C64EF2900551C6C /* PostView.swift */,
+				4A6FB4F02C64F28000551C6C /* HomeScreen.swift */,
+				4A6FB4F22C64F3B500551C6C /* TabScreen.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -89,8 +111,10 @@
 		4A1AF9D42C63A4FD00DB26DD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4A6FB4E82C64E43800551C6C /* SocialData.swift */,
 				4A1AF9D52C63A50C00DB26DD /* PostModel.swift */,
 				4A1AF9D72C63A51700DB26DD /* NetworkModel.swift */,
+				4A1AF9D12C63A09600DB26DD /* View */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,12 +189,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A6FB4E92C64E43800551C6C /* SocialData.swift in Sources */,
+				4A6FB4EB2C64E46600551C6C /* SocialView.swift in Sources */,
+				4A6FB4E72C64E16C00551C6C /* PostCardView.swift in Sources */,
 				4A1AF9C62C639C7000DB26DD /* ContentView.swift in Sources */,
 				4A1AF9D62C63A50C00DB26DD /* PostModel.swift in Sources */,
 				4A1AF9D32C63A0A500DB26DD /* SearchView.swift in Sources */,
+				4A6FB4F12C64F28000551C6C /* HomeScreen.swift in Sources */,
 				4A1AF9D82C63A51700DB26DD /* NetworkModel.swift in Sources */,
 				4A1AF9C42C639C7000DB26DD /* LinkedinUIApp.swift in Sources */,
+				4A6FB4F32C64F3B500551C6C /* TabScreen.swift in Sources */,
 				4A6FB4E32C64D9EE00551C6C /* InvitationView.swift in Sources */,
+				4A6FB4ED2C64EE1400551C6C /* ProfileView.swift in Sources */,
+				4A6FB4EF2C64EF2900551C6C /* PostView.swift in Sources */,
+				4A6FB4E52C64DDA200551C6C /* MyNetworkScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

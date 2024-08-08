@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PostModel {
+struct PostModel:Hashable {
     var id:Int
     var image:String
     var title:String

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct NetworkModel {
+struct NetworkModel:Hashable {
     var id:Int
     var name:String
     var position:String
